@@ -27,13 +27,17 @@ proyecto-ia-tenis-mesa/
 ```
 Para que se entienda de mejor manera cada apartado, a continuación se hará una breve descripción del contenido de la documentación.
 
-* Docs/ Documentación y proceso de migración es decir de Matlab a Python, y de ahí a Codex.
-* Legacy/ Contiene el código original de MATLAB proporcionado por el docente, se conserva como referencia y no se modifica.
-* Notebooks/ Cuaderno desarrollado en Jupyter; interfaz interactiva de la mesa de tenis modificable con base a sliders, presenta la trayectoria en 3D y además muestra las gráficas posición (m), velocidad, velocidad angular con respecto al tiempo, todo adaptable a los valores registrados en los sliders.
-* Results/ Destinada a almacenar resultados generados de la simulación.
-* src/ Carpeta del código principal en Python.
-* tests/ Se guardan las modificaciones y pruebas que se le han hecho al código.
+**Docs/** Documentación y proceso de migración es decir de Matlab a Python, y de ahí a Codex.
+**Legacy/** Contiene el código original de MATLAB proporcionado por el docente, se conserva como referencia y no se modifica.
+**Notebooks/** Cuaderno desarrollado en Jupyter; interfaz interactiva de la mesa de tenis modificable con base a sliders, presenta la trayectoria en 3D y además muestra las gráficas posición (m), velocidad, velocidad angular, con respecto al tiempo, todo adaptable a los valores registrados en los sliders.
+**Results/** Destinada a almacenar resultados generados de la simulación.
+**src/** Carpeta del código principal en Python.
+**tests/** Se guardan las modificaciones y pruebas que se le han hecho al código.
 
+**.gitignore/** Carpetas que Git debe ignorar y no subir al repositorio.
+**README.md/** Prácticamente es la documentación donde se especifican los segmentos del trabajo y su elaboración.
+**bitacora_ia.md/** Registra el uso de IA, interacciones con Codex, objetivos de cada interacción, resultados, cambios aceptados o rechazados, y verificaciones realizadas.
+**requirements.txt/** Especifica las bibliotecas necesarias para ejecutar el proyecto: NumPy, Matplotlib, ipywidgets y Jupyter.
   
 
 ## Instalación
