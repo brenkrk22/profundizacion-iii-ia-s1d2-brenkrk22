@@ -4,6 +4,9 @@
 - Kevin Duque Delgado
 - Brenk Sneider Bohorquez Vargas
 
+## Fecha de entrega
+27 de Agosto del 2026, a las 20:00 p.m.
+
 # Simulación de pelota de tenis de mesa
 
 Migración reproducible de un Live Script de MATLAB a Python. El modelo representa gravedad, arrastre, efecto Magnus, giro, rebotes sobre la mesa y una colisión simplificada con la red.
