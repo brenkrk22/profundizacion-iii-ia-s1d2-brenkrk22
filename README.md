@@ -27,8 +27,8 @@ proyecto-ia-tenis-mesa/
 ```
 Para que se entienda de mejor manera cada apartado, a continuación se hará una breve descripción del contenido de la documentación.
 
-**Docs/** Documentación y proceso de migración es decir de Matlab a Python, y de ahí a Codex.
-**Legacy/** Contiene el código original de MATLAB proporcionado por el docente, se conserva como referencia y no se modifica.
+* **Docs/** Documentación y proceso de migración es decir de Matlab a Python, y de ahí a Codex.
+* **Legacy/** Contiene el código original de MATLAB proporcionado por el docente, se conserva como referencia y no se modifica.
 **Notebooks/** Cuaderno desarrollado en Jupyter; interfaz interactiva de la mesa de tenis modificable con base a sliders, presenta la trayectoria en 3D y además muestra las gráficas posición (m), velocidad, velocidad angular, con respecto al tiempo, todo adaptable a los valores registrados en los sliders.
 **Results/** Destinada a almacenar resultados generados de la simulación.
 **src/** Carpeta del código principal en Python.
