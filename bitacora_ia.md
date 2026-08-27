@@ -33,8 +33,8 @@
 - Resultado obtenido: `notebooks/01_simulacion_interactiva.ipynb` importa el paquete desde `src/` y define los sliders requeridos.
 - Cambios aceptados: trayectoria 3D y series de posición, velocidad y velocidad angular con Matplotlib.
 - Cambios rechazados: copiar el algoritmo de simulación dentro del notebook.
-- Verificación realizada: se validó la estructura JSON del notebook; queda pendiente ejecutarlo tras instalar las dependencias con `python -m pip install -r requirements.txt`.
-- Commit asociado: `feat: add interactive simulation notebook with sliders`.
+- Verificación realizada: se validó la estructura JSON del notebook, se instalaron las dependencias en `.venv`, pasaron dos pruebas automatizadas y se generaron y revisaron las gráficas. Se corrigió el dibujo de la red 3D, que inicialmente aparecía como una diagonal.
+- Commit asociado: `feat: add interactive simulation notebook with sliders` y `fix: render net as a 3D plane`.
 
 ## Reflexión final
 
