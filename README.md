@@ -1,3 +1,9 @@
+## Autores
+- Caroline Valentina García Pereira
+- Karol Michelle Benavides Castillo
+- Kevin Duque Delgado
+- Brenk Sneider Bohorquez Vargas
+
 # Simulación de pelota de tenis de mesa
 
 Migración reproducible de un Live Script de MATLAB a Python. El modelo representa gravedad, arrastre, efecto Magnus, giro, rebotes sobre la mesa y una colisión simplificada con la red.
@@ -67,6 +73,4 @@ python -m pytest tests
 
 La trazabilidad de las interacciones, decisiones y verificaciones está en [bitacora_ia.md](bitacora_ia.md).
 
-## Autores
 
-brenk sneider bohorquez vargas, kevin duque, caroline valentina garcia, karol venebides
