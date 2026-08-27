@@ -11,6 +11,9 @@
 
 Migración reproducible de un Live Script de MATLAB a Python. El modelo representa gravedad, arrastre, efecto Magnus, giro, rebotes sobre la mesa y una colisión simplificada con la red.
 
+## Video - Simulación código, simulador de mesa de Tennis.
+https://youtu.be/c2V1b7xJp5s?si=VaL09WgXj73y7wI5
+
 ## Estructura
 La estructura fue definida por el docente durante la clase. Esto con el fin de mantener una organización clara del proyecto,  facilitando la comprensión de la documentación para el lector, permitiendo dar a conocer la separación entre el código original, la simulación desarrollada en Python, la interfaz interactiva y las pruebas.
 
@@ -100,7 +103,6 @@ python -m pytest tests
 - La animación cuadro a cuadro del Live Script no se migró: se priorizaron gráficos reproducibles e interactividad en el notebook.
 - El `pitch = 23,5` del original se interpreta como 23.5 grados previstos; la coma es ambigua en MATLAB.
 - Requiere de un entorno en específico, Python versión 3.10 o superior.
-- 
 
 ## Uso de IA generativa
 
