@@ -41,9 +41,8 @@ Para que se entienda de mejor manera cada apartado, a continuación se hará una
 * **bitacora_ia.md/** Registra el uso de IA, interacciones con Codex, objetivos de cada interacción, resultados, cambios aceptados o rechazados, y verificaciones realizadas.
 * **requirements.txt/** Especifica las bibliotecas necesarias para ejecutar el proyecto: NumPy, Matplotlib, ipywidgets y Jupyter.
   
-
 ## Instalación
-Antes de la instalación se deben leer los archivos correspondeintes para comprender las funciones de cada una de las aplicaciones que integran el proceso.
+Antes de la instalación se deben leer los archivos correspondientes para comprender las funciones de cada una de las aplicaciones que integran el proceso.
 Como primer paso se debe abrir PowerShell y procesar los comandos:
 - winget install --id Git.Git -e  //para instalación de Github.
 - winget install --id Microsoft.VisualStudioCode -e //instalación de Visual Studio Code en caso de tenerlo.
