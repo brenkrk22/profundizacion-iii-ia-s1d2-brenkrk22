@@ -5,13 +5,14 @@
 - Brenk Sneider Bohorquez Vargas
 
 ## Fecha de entrega
-27 de Agosto del 2026, a las 20:00 p.m.
+27 de Agosto del 2026 a las 20:00 p.m.
 
 # Simulación de pelota de tenis de mesa
 
 Migración reproducible de un Live Script de MATLAB a Python. El modelo representa gravedad, arrastre, efecto Magnus, giro, rebotes sobre la mesa y una colisión simplificada con la red.
 
 ## Estructura
+La estructura fue definida por el docente durante la clase. Esto con el fin de mantener una organización clara del proyecto,  facilitando la comprensión de la documentación para el lector, permitiendo dar a conocer la separación entre el código original, la simulación desarrollada en Python, la interfaz interactiva y las pruebas.
 
 ```text
 proyecto-ia-tenis-mesa/
