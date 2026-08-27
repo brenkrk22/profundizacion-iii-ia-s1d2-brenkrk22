@@ -69,4 +69,4 @@ La trazabilidad de las interacciones, decisiones y verificaciones está en [bita
 
 ## Autores
 
-brenkrk22. Actualiza esta sección con nombres completos antes de entregar.
+brenk sneider bohorquez vargas, kevin duque, caroline valentina garcia, karol venebides
