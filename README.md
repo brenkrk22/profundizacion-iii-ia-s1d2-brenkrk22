@@ -16,12 +16,14 @@ La estructura fue definida por el docente durante la clase. Esto con el fin de m
 
 ```text
 proyecto-ia-tenis-mesa/
-├── legacy/                 # Live Script MATLAB original, sin modificar
-├── src/table_tennis_sim/   # Paquete Python de la simulación
-├── notebooks/              # Interfaz interactiva con sliders
-├── tests/                  # Verificaciones mínimas
 ├── docs/                   # Plan de migración
+├── legacy/                 # Live Script MATLAB original, sin modificar
+├── notebooks/              # Interfaz interactiva con sliders
 ├── results/                # Resultados generados (no versionados)
+├── src/table_tennis_sim/   # Paquete Python de la simulación
+├── tests/                  # Verificaciones mínimas
+├── .gitignore
+├── README.md
 ├── bitacora_ia.md
 └── requirements.txt
 ```
