@@ -48,10 +48,10 @@ Como primer paso se debe abrir PowerShell y procesar los comandos:
 - winget install --id Python.Python.3.14 -e //para instalación de Python.
 - winget install --id GitHub.cli -e //instalacipon de GitHub CLI.
 
-Se procede a verificar las versiones instaladas
-git --version
-python --version
-gh --version
+Se procede a verificar las versiones instaladas:
+git --version.
+python --version.
+gh --version.
 
 Se agrega Codex según la guía de chatGPT 
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
