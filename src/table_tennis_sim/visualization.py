@@ -19,15 +19,13 @@ def plot_trajectory_3d(result: SimulationResult, params: SimulationParameters) -
     table_x, table_y = np.meshgrid([0, params.table_length / 1000], [0, params.table_width / 1000])
     table_z = np.full_like(table_x, params.table_height / 1000)
     axis.plot_surface(table_x, table_y, table_z, alpha=0.45, color="royalblue")
-    net_x = params.table_length / 2000
-    axis.plot(
-        [net_x, net_x],
+    net_y, net_z = np.meshgrid(
         [0, params.table_width / 1000],
         [params.table_height / 1000, (params.table_height + params.net_height) / 1000],
-        color="black",
-        linewidth=2,
-        label="red",
     )
+    net_x = np.full_like(net_y, params.table_length / 2000)
+    axis.plot_surface(net_x, net_y, net_z, color="black", alpha=0.55)
+    axis.plot([], [], [], color="black", label="red")
     axis.set(xlabel="X [m]", ylabel="Y [m]", zlabel="Z [m]", title="Trayectoria 3D")
     axis.set_box_aspect((params.table_length, params.table_width, params.table_length))
     axis.legend()
