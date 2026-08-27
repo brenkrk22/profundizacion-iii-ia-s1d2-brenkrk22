@@ -99,6 +99,8 @@ python -m pytest tests
 - La integración usa Euler explícito; pasos grandes reducen la estabilidad.
 - La animación cuadro a cuadro del Live Script no se migró: se priorizaron gráficos reproducibles e interactividad en el notebook.
 - El `pitch = 23,5` del original se interpreta como 23.5 grados previstos; la coma es ambigua en MATLAB.
+- Requiere de un entorno en específico, Python versión 3.10 o superior.
+- 
 
 ## Uso de IA generativa
 
