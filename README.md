@@ -8,11 +8,13 @@
 27 de Agosto del 2026 a las 20:00 p.m.
 
 # Simulación de pelota de tenis de mesa
-
 Migración reproducible de un Live Script de MATLAB a Python. El modelo representa gravedad, arrastre, efecto Magnus, giro, rebotes sobre la mesa y una colisión simplificada con la red.
 
-## Video - Simulación código, simulador de mesa de Tennis.
+## Video - Simulación código, simulador de mesa de Tennis
 https://youtu.be/c2V1b7xJp5s?si=VaL09WgXj73y7wI5
+
+## Objetivo
+Se procura pasar la simulación de tenis de mesa que estaba en MATLAB a Python, tratando de mantener su funcionamiento principal. Se busca agregar una interfaz con sliders que permita cambiar algunos parámetros y ver de forma gráfica cómo estos afectan el movimiento y la trayectoria de la pelota.
 
 ## Estructura
 La estructura fue definida por el docente durante la clase. Esto con el fin de mantener una organización clara del proyecto,  facilitando la comprensión de la documentación para el lector, permitiendo dar a conocer la separación entre el código original, la simulación desarrollada en Python, la interfaz interactiva y las pruebas.
@@ -57,7 +59,7 @@ git --version.
 python --version.
 gh --version.
 
-Se agrega Codex según la guía de chatGPT 
+Se agrega Codex según la guía de chatGPT:
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
 
 ```powershell
@@ -67,7 +69,6 @@ python -m pip install -r requirements.txt
 ```
 
 ## Uso rápido
-
 Desde la raíz del repositorio, abre Jupyter:
 
 ```powershell
