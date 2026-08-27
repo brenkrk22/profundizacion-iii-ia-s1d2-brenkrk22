@@ -43,10 +43,10 @@ Para que se entienda de mejor manera cada apartado, a continuación se hará una
 ## Instalación
 Antes de la instalación se deben leer los archivos correspondeintes para comprender las funciones de cada una de las aplicaciones que integran el proceso.
 Como primer paso se debe abrir PowerShell y procesar los comandos:
-winget install --id Git.Git -e  //para instalación de Github
-winget install --id Microsoft.VisualStudioCode -e //instalación de Visual Studio Code en caso de tenerlo
-winget install --id Python.Python.3.14 -e //para instalación de Python
-winget install --id GitHub.cli -e //instalacipon de GitHub CLI
+- winget install --id Git.Git -e  //para instalación de Github.
+- winget install --id Microsoft.VisualStudioCode -e //instalación de Visual Studio Code en caso de tenerlo.
+- winget install --id Python.Python.3.14 -e //para instalación de Python.
+- winget install --id GitHub.cli -e //instalacipon de GitHub CLI.
 
 Se procede a verificar las versiones instaladas
 git --version
