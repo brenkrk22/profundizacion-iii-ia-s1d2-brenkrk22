@@ -105,6 +105,9 @@ python -m pytest tests
 - El `pitch = 23,5` del original se interpreta como 23.5 grados previstos; la coma es ambigua en MATLAB.
 - Requiere de un entorno en específico, Python versión 3.10 o superior.
 
+## Desarrollo de la migración##
+El desarrollo y paso a paso para elaborar la simulación, gráficas y mejorar el codigo se especifica en 
+
 ## Uso de IA generativa
 
 La trazabilidad de las interacciones, decisiones y verificaciones está en [bitacora_ia.md](bitacora_ia.md).
